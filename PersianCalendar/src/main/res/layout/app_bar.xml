@@ -12,4 +12,10 @@
         android:theme="?attr/appToolbarTheme"
         app:popupTheme="?attr/appToolbarPopupTheme" />
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView3"
+        android:name="com.byagowi.persiancalendar.ui.Ediori.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
 </com.google.android.material.appbar.AppBarLayout>

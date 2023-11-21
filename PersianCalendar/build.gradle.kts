@@ -1,5 +1,9 @@
 import org.codehaus.groovy.runtime.ProcessGroovyMethods
 
+
+
+
+
 operator fun File.div(child: String) = File(this, child)
 fun String.execute() = ProcessGroovyMethods.execute(this)
 val Process.text: String? get() = ProcessGroovyMethods.getText(this)
@@ -34,7 +38,7 @@ android {
     namespace = "com.byagowi.persiancalendar"
 
     defaultConfig {
-        applicationId = "com.byagowi.persiancalendar"
+        applicationId = "com.persiancalendar1402"
         minSdk = 19
         targetSdk = 34
         versionCode = 840
@@ -140,6 +144,10 @@ val minApi21Implementation by configurations
 
 dependencies {
     // Project owned libraries
+
+    implementation("com.adivery:sdk:4.6.5")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
+
     implementation(libs.persiancalendar.calendar)
     implementation(libs.persiancalendar.praytimes)
     implementation(libs.persiancalendar.calculator)

@@ -15,10 +15,12 @@ import kotlin.math.floor
 enum class Season(
     @StringRes val nameStringId: Int, @DrawableRes val imageId: Int, @ColorInt val color: Int
 ) {
-    SPRING(R.string.spring, R.drawable.spring, 0xcc80aa15.toInt()),
+    SPRING(R.string.spring, R.drawable._13, 0xcc80aa15.toInt()),
     SUMMER(R.string.summer, R.drawable.summer, 0xccfab000.toInt()),
     AUTUMN(R.string.autumn, R.drawable.fall, 0xccbf8015.toInt()),
-    WINTER(R.string.winter, R.drawable.winter, 0xcc5580aa.toInt());
+    WINTER(R.string.winter, R.drawable.winter, 0xcc5580aa.toInt()),
+    ;
+
 
     companion object {
         fun fromDate(date: Date, coordinates: Coordinates?): Season {

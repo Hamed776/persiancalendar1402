@@ -52,11 +52,10 @@ class AboutScreen : Fragment(R.layout.about_screen) {
         binding.appBar.toolbar.menu.add(R.string.share).also {
             it.icon = binding.appBar.toolbar.context.getCompatDrawable(R.drawable.ic_baseline_share)
             it.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)
-            it.onClick { shareApplication() }
+            it.onClick {  }
         }
         binding.appBar.toolbar.menu.add(R.string.device_information).also {
-            it.icon =
-                binding.appBar.toolbar.context.getCompatDrawable(R.drawable.ic_device_information)
+            it.icon = binding.appBar.toolbar.context.getCompatDrawable(R.drawable.ic_device_information)
             it.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)
             it.onClick {
                 findNavController().navigateSafe(AboutScreenDirections.actionAboutToDeviceInformation())
@@ -70,9 +69,8 @@ class AboutScreen : Fragment(R.layout.about_screen) {
             scale(.8f) {
                 val version =
                     // Don't formatNumber it if is multi-parted
-                    if ("-" in BuildConfig.VERSION_NAME) BuildConfig.VERSION_NAME
-                    else formatNumber(BuildConfig.VERSION_NAME)
-                append(getString(R.string.version, version))
+                    formatNumber("8.5.0")
+                   append(getString(R.string.version, version))
             }
             if (language.isUserAbleToReadPersian) {
                 appendLine()
@@ -90,18 +88,7 @@ class AboutScreen : Fragment(R.layout.about_screen) {
         binding.aboutHeader.text = version
         binding.accessibleVersion.contentDescription = version
         run {
-            val animation =
-                context?.getAnimatedDrawable(R.drawable.splash_icon_animation) ?: return@run
-            binding.icon.setImageDrawable(animation)
-            animation.start()
-            val clickHandlerDialog = createEasterEggClickHandler(::showPeriodicTableDialog)
-            val clickHandlerIcon = createIconRandomEffects(binding.icon)
-            binding.headerPlaceHolder.setOnClickListener {
-                animation.stop()
-                animation.start()
-                clickHandlerDialog(activity)
-                clickHandlerIcon()
-            }
+
         }
 
         fun TextView.putLineStartIcon(@DrawableRes icon: Int) {
@@ -133,11 +120,9 @@ class AboutScreen : Fragment(R.layout.about_screen) {
         }
 
         // report bug
-        binding.reportBug.setOnClickListener { launchReportIntent() }
-        binding.reportBugTitle.putLineStartIcon(R.drawable.ic_bug)
 
-        binding.email.setOnClickListener click@{ showEmailDialog(activity ?: return@click) }
-        binding.emailTitle.putLineStartIcon(R.drawable.ic_email)
+
+
 
         setupContributorsList(binding)
 
@@ -157,64 +142,11 @@ class AboutScreen : Fragment(R.layout.about_screen) {
         val chipsIconTintId =
             context.resolveResourceIdFromTheme(com.google.android.material.R.attr.colorAccent)
 
-        val chipClick = View.OnClickListener {
-            (it.tag as? String)?.also { user ->
-                if (user == "ImanSoltanian") return@also // The only person without GitHub account
-                runCatching {
-                    val uri = "https://github.com/$user".toUri()
-                    CustomTabsIntent.Builder().build().launchUrl(context, uri)
-                }.onFailure(logException)
-            }
-        }
+
 
 
         // Chip view inflation crashes in Android 4 as lack RippleDrawable apparently and material's
         // internal bug so let's just hide it there
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-            binding.developersSection.isVisible = false
-            return
-        }
 
-        listOf(
-            R.string.about_developers_list to R.drawable.ic_developer,
-            R.string.about_designers_list to R.drawable.ic_designer,
-            R.string.about_translators_list to R.drawable.ic_translator,
-            R.string.about_contributors_list to R.drawable.ic_developer
-        ).flatMap { (listId: Int, iconId: Int) ->
-            val icon = context.getCompatDrawable(iconId)
-            getString(listId).trim().split("\n").map {
-                Chip(context).also { chip ->
-                    chip.ensureAccessibleTouchTarget(0)
-                    chip.setOnClickListener(chipClick)
-                    val (username, displayName) = it.split(": ")
-                    chip.tag = username
-                    chip.text = displayName
-                    chip.chipIcon = icon
-                    chip.setChipIconTintResource(chipsIconTintId)
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        chip.elevation = resources.getDimension(R.dimen.chip_elevation)
-                    }
-                }
-            }
-        }.shuffled().forEach(binding.developers::addView)
-    }
-
-    private fun launchReportIntent() {
-        runCatching {
-            val uri = "https://github.com/persian-calendar/persian-calendar/issues/new".toUri()
-            startActivity(Intent(Intent.ACTION_VIEW, uri))
-        }.onFailure(logException)
-    }
-
-    private fun shareApplication() {
-        runCatching {
-            startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).apply {
-                type = "text/plain"
-                putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name))
-                val textToShare = """${getString(R.string.app_name)}
-https://github.com/persian-calendar/persian-calendar"""
-                putExtra(Intent.EXTRA_TEXT, textToShare)
-            }, getString(R.string.share)))
-        }.onFailure(logException).onFailure { (activity ?: return).bringMarketPage() }
-    }
 }
+    }

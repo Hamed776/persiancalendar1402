@@ -360,7 +360,7 @@ class CalendarScreen : Fragment(R.layout.calendar_screen) {
         }
 
         binding.appBar.toolbar.setupMenuNavigation()
-        binding.appBar.root.hideToolbarBottomShadow()
+            //  binding.appBar.root.hideToolbarBottomShadow()
 
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { _, insets ->
             val systemBarsInsets = insets.getInsets(WindowInsetsCompat.Type.systemBars())

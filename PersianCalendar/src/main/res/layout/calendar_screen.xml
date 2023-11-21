@@ -24,6 +24,7 @@
 
             <com.byagowi.persiancalendar.ui.calendar.calendarpager.CalendarPager
                 android:id="@+id/calendarPager"
+
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/grid_calendar_height" />
 
@@ -35,6 +36,7 @@
                 <com.google.android.material.tabs.TabLayout
                     android:id="@+id/tabLayout"
                     style="@style/TabLayout"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="?attr/colorSurface" />
@@ -43,6 +45,7 @@
 
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/viewPager"
+
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -55,6 +58,8 @@
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/add_event"
+
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
