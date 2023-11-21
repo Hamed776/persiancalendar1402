@@ -145,7 +145,7 @@ val minApi21Implementation by configurations
 dependencies {
     // Project owned libraries
 
-    implementation("com.adivery:sdk:4.6.5")
+    implementation("com.adivery:sdk:4.6.9")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
 
     implementation(libs.persiancalendar.calendar)
