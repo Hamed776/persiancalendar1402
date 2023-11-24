@@ -146,7 +146,7 @@ dependencies {
     // Project owned libraries
 
     implementation("com.adivery:sdk:4.6.5")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.21")
 
     implementation(libs.persiancalendar.calendar)
     implementation(libs.persiancalendar.praytimes)
