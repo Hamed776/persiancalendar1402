@@ -6,35 +6,35 @@
     android:viewportHeight="24">
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M3,11h8V3H3V11zM5,5h4v4H5V5z" />
+        android:pathData="@string/m3_11h8v3h3v11zm5_5h4v4h5v5z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M3,21h8v-8H3V21zM5,15h4v4H5V15z" />
+        android:pathData="@string/m3_21h8v_8h3v21zm5_15h4v4h5v15z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M13,3v8h8V3H13zM19,9h-4V5h4V9z" />
+        android:pathData="@string/m13_3v8h8v3h13zm19_9h_4v5h4v9z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M19,19h2v2h-2z" />
+        android:pathData="@string/m19_19h2v2h_2z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M13,13h2v2h-2z" />
+        android:pathData="@string/m13_13h2v2h_2z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M15,15h2v2h-2z" />
+        android:pathData="@string/m15_15h2v2h_2z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M13,17h2v2h-2z" />
+        android:pathData="@string/m13_17h2v2h_2z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M15,19h2v2h-2z" />
+        android:pathData="@string/m15_19h2v2h_2z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M17,17h2v2h-2z" />
+        android:pathData="@string/m17_17h2v2h_2z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M17,13h2v2h-2z" />
+        android:pathData="@string/m17_13h2v2h_2z" />
     <path
         android:fillColor="@android:color/white"
-        android:pathData="M19,15h2v2h-2z" />
+        android:pathData="@string/m19_15h2v2h_2z" />
 </vector>

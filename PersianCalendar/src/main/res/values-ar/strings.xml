@@ -2,9 +2,9 @@
 <resources>
     <string name="code">ar</string>
     <!--Global-->
-    <string name="app_name">التقويم الفارسي</string>
-    <string name="widget_name">التقويم الفارسي</string>
-    <string name="widget_mini_name">التقويم الفارسي (صغير)</string>
+    <string name="app_name">التقويم الفارسي 1402</string>
+    <string name="widget_name">التقويم الفارسي 1402</string>
+    <string name="widget_mini_name">التقويم الفارسي 1402(صغير)</string>
     <string name="close">إغلاق</string>
     <string name="open">فتح</string>
     <string name="accept">موافق</string>

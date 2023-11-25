@@ -51,12 +51,12 @@
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
-        android:banner="@mipmap/ic_banner"
+        android:banner="@drawable/_14"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/_14"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/_14"
         android:supportsRtl="true"
         android:theme="@style/SplashScreenTheme"
         tools:ignore="GoogleAppIndexingWarning">
@@ -138,7 +138,7 @@
         <receiver
             android:name=".Widget1x1"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/widget_mini_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -156,7 +156,7 @@
         <receiver
             android:name=".Widget4x1"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/widget_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -174,7 +174,7 @@
         <receiver
             android:name=".Widget4x2"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/widget_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -192,7 +192,7 @@
         <receiver
             android:name=".Widget2x2"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/widget_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -228,7 +228,7 @@
         <receiver
             android:name=".WidgetSunView"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/sun_view">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -246,7 +246,7 @@
         <receiver
             android:name=".WidgetMonthView"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/calendar">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -264,7 +264,7 @@
         <receiver
             android:name=".WidgetMap"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/map">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -278,7 +278,7 @@
         <receiver
             android:name=".WidgetMoon"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/moon">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -292,7 +292,7 @@
         <receiver
             android:name=".AgeWidget"
             android:exported="false"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/widget_age_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -360,7 +360,7 @@
             android:name=".service.PersianCalendarDreamService"
             android:enabled="true"
             android:exported="true"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/_14"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_DREAM_SERVICE">
             <intent-filter>
