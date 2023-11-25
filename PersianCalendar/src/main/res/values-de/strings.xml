@@ -67,4 +67,7 @@
     <string name="today">Heute</string>
     <string name="update">Aktualisierung</string>
     <string name="widget_name">Persischer Kalender</string>
+    <string name="Writecomment">Kommentar schreiben</string>
+    <string name="Fivestarreview">Fünf-Sterne-Bewertung</string>
+    <string name="Exit">Beenden</string>
 </resources>

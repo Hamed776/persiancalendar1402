@@ -396,4 +396,7 @@
         <item quantity="one">%1$s İş Günü</item>
         <item quantity="other">%1$s İş Günü</item>
     </plurals>
+    <string name="Fivestarreview">Beş yıldızlı inceleme</string>
+    <string name="Writecomment">Yorum Yaz</string>
+    <string name="Exit">Çıkış</string>
 </resources>

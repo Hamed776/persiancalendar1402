@@ -2,9 +2,9 @@
 <resources>
     <string name="code">ar</string>
     <!--Global-->
-    <string name="app_name">التقويم الفارسي</string>
-    <string name="widget_name">التقويم الفارسي</string>
-    <string name="widget_mini_name">التقويم الفارسي (صغير)</string>
+    <string name="app_name">التقويم الفارسي 1402</string>
+    <string name="widget_name">التقويم الفارسي 1402</string>
+    <string name="widget_mini_name">التقويم الفارسي 1402(صغير)</string>
     <string name="close">إغلاق</string>
     <string name="open">فتح</string>
     <string name="accept">موافق</string>
@@ -447,4 +447,7 @@
         <item quantity="many">%1$s يوما العمل</item>
         <item quantity="other">%1$s يوم العمل</item>
     </plurals>
+    <string name="Fivestarreview">مراجعة فايف ستار</string>
+    <string name="Writecomment">اكتب تعليقا</string>
+    <string name="Exit">رحيل</string>
 </resources>

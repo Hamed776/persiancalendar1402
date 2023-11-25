@@ -11,5 +11,5 @@ Made from:
     android:viewportHeight="24">
     <path
         android:fillColor="@android:color/white"
-        android:pathData="m12,1 l5,5 -5,5v-4c-3.3,0 -6,2.7 -6,6s2.7,6 6,6 6,-2.7 6,-6h2c0,4.4 -3.6,8 -8,8s-8,-3.6 -8,-8 3.6,-8 8,-8zM8.6,12v0.87h1.7v0.87h-1.7v2.6h2.6v-0.87h-1.7v-0.87h1.7v-2.6zM12.6,12v2.6h1.7v1.7h0.87v-4.4h-0.87v1.7h-0.87v-1.7z" />
+        android:pathData="@string/m12_1_l5_5_5_5v_4c_3_3_0_6_2_7_6_6s2_7_6_6_6_6_2_7_6_6h2c0_4_4_3_6_8_8_8s_8_3_6_8_8_3_6_8_8_8zm8_6_12v0_87h1_7v0_87h_1_7v2_6h2_6v_0_87h_1_7v_0_87h1_7v_2_6zm12_6_12v2_6h1_7v1_7h0_87v_4_4h_0_87v1_7h_0_87v_1_7z" />
 </vector>

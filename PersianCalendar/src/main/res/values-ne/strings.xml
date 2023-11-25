@@ -353,4 +353,9 @@
     <string name="widget_prefer_device_colors">विजेटहरूमा प्रणाली रङ पालना गर्नुहोस्</string>
     <string name="nepal">नेपाल</string>
     <string name="calculator">क्यालकुलेटर</string>
+
+    <string name="Fivestarreview">पांच सितारा समीक्षा</string>
+    <string name="Writecomment">एक टिप्पणी लिखें</string>
+
+    <string name="Exit">प्रस्थान</string>
 </resources>

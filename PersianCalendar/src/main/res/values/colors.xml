@@ -122,4 +122,8 @@
     <color name="display_border">#FF333333</color>
     <color name="display_dark">@android:color/black</color>
     <color name="display_reflect">@color/black_reflect</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>

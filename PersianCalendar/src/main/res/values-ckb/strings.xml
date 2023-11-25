@@ -393,4 +393,9 @@
         <item quantity="one">%1$s چرکە</item>
         <item quantity="other">%1$s چرکە</item>
     </plurals>
+    <string name="Fivestarreview" >پێداچوونەوەی پێنج ئەستێرە</string>
+    <string name="Writecomment">کۆمێنتێک بنووسە</string>
+
+
+    <string name="Exit">جێهێشتن</string>
 </resources>

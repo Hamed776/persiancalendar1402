@@ -400,4 +400,8 @@
     <string name="color_gradient">طیف رنگی</string>
     <string name="time_zones">مناطق زمانی</string>
     <string name="qr_code">کیوآر کد</string>
+    <string name="Fivestarreview">نظر پنج ستاره</string>
+    <string name="Writecomment">نوشتن نظر</string>
+
+    <string name="Exit">خروج</string>
 </resources>

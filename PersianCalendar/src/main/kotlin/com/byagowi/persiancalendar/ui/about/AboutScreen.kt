@@ -49,11 +49,7 @@ class AboutScreen : Fragment(R.layout.about_screen) {
         val binding = AboutScreenBinding.bind(view)
         binding.appBar.toolbar.setTitle(R.string.about)
         binding.appBar.toolbar.setupMenuNavigation()
-        binding.appBar.toolbar.menu.add(R.string.share).also {
-            it.icon = binding.appBar.toolbar.context.getCompatDrawable(R.drawable.ic_baseline_share)
-            it.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)
-            it.onClick {  }
-        }
+
         binding.appBar.toolbar.menu.add(R.string.device_information).also {
             it.icon = binding.appBar.toolbar.context.getCompatDrawable(R.drawable.ic_device_information)
             it.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)

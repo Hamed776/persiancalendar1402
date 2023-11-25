@@ -340,4 +340,7 @@
     <string name="country_emoji">🇵🇰🇮🇳</string>
     <string name="nepal">نپال</string>
     <string name="calculator">کیلکولیٹر</string>
+    <string name="Fivestarreview">پانچ ستارہ کی تبصرہ</string>
+    <string name="Writecomment">تبصرہ لکھیں</string>
+    <string name="Exit">باز نشستن</string>
 </resources>

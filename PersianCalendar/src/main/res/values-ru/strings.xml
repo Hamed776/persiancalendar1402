@@ -402,4 +402,7 @@
     <string name="phone_calendar_required">Для этой части приложения требуется разрешение календаря, если вы разрешите, ваши личные события будут отображаться в календаре.</string>
     <string name="gpl_logo">Логотип GPL</string>
     <string name="version">Версия %1$s</string>
+    <string name="Fivestarreview">Пятизвездочный отзыв</string>
+    <string name="Writecomment">Написать комментарий</string>
+    <string name="Exit">Выход</string>
 </resources>

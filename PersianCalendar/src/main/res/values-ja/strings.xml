@@ -236,4 +236,8 @@
     <string name="country_emoji">🇯🇵</string>
     <string name="nepal">ネパール</string>
     <string name="calculator">電卓</string>
+    <string name="Fivestarreview">5つ星のレビュー</string>
+    <string name="Writecomment">コメントを書く</string>
+
+    <string name="Exit">出発</string>
 </resources>

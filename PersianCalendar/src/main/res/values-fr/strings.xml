@@ -400,4 +400,8 @@
         <item quantity="many">%1$s semaines</item>
         <item quantity="other">%1$s semaines</item>
     </plurals>
+    <string name="Fivestarreview">Examen cinq étoiles</string>
+    <string name="Writecomment">Écrivez un commentaire</string>
+
+    <string name="Exit">départ</string>
 </resources>

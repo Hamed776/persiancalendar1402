@@ -23,6 +23,7 @@ junit = "4.13.2"
 junit-runner = "1.10.1"
 junit5 = "5.10.1"
 kotlin = "1.9.20"
+kotlin-stdlib = "1.9.22"
 kotlinpoet = "1.14.2"
 kotlinx-html-jvm = "0.9.1"
 kotlinx-serialization-json = "1.6.0"
@@ -34,6 +35,7 @@ mockito-core = "5.7.0"
 mockito-kotlin = "5.1.0"
 multidex = "2.0.1"
 openlocationcode = "1.0.4"
+parse = "1.26.0"
 persiancalendar-calculator = "371a91149d1fea9c318ef0def94ca0f93a1be0c2"
 persiancalendar-calendar = "a029c1f7fdf7204b8315847b89612eb15a5d519e"
 persiancalendar-praytimes = "36eab5bf0b6f5057357d6fbf0007bea3fab73895"
@@ -41,6 +43,7 @@ persiancalendar-qr = "60ad1863978b35205549eae6af177c45a1e67307"
 preference = "1.2.1"
 recyclerview = "1.3.2"
 room = "2.6.0"
+sdk = "4.6.9"
 sqlite = "2.4.0"
 truth = "1.1.5"
 viewpager2 = "1.0.0"
@@ -75,6 +78,7 @@ junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", v
 junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version.ref = "junit5" }
 junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version.ref = "junit5" }
 junit-platform-runner = { group = "org.junit.platform", name = "junit-platform-runner", version.ref = "junit-runner" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin-stdlib" }
 kotlinpoet = { group = "com.squareup", name = "kotlinpoet", version.ref = "kotlinpoet" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
@@ -90,6 +94,7 @@ navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fr
 navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "androidx-navigation" }
 navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "androidx-navigation" }
 openlocationcode = { group = "com.google.openlocationcode", name = "openlocationcode", version.ref = "openlocationcode" }
+parse = { module = "com.github.parse-community.Parse-SDK-Android:parse", version.ref = "parse" }
 persiancalendar-calculator = { group = "com.github.persian-calendar", name = "calculator", version.ref = "persiancalendar-calculator" }
 persiancalendar-calendar = { group = "com.github.persian-calendar", name = "calendar", version.ref = "persiancalendar-calendar" }
 persiancalendar-praytimes = { group = "com.github.persian-calendar", name = "praytimes", version.ref = "persiancalendar-praytimes" }
@@ -100,6 +105,7 @@ room-compiler = { group = "androidx.room", name = "room-compiler", version.ref =
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-paging = { group = "androidx.room", name = "room-paging", version.ref = "room" }
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+sdk = { module = "com.adivery:sdk", version.ref = "sdk" }
 sqlite = { group = "androidx.sqlite", name = "sqlite", version.ref = "sqlite" }
 sqlite-framework = { group = "androidx.sqlite", name = "sqlite-framework", version.ref = "sqlite" }
 sqlite-ktx = { group = "androidx.sqlite", name = "sqlite-ktx", version.ref = "sqlite" }
@@ -112,7 +118,7 @@ work-manager-ktx = { group = "androidx.work", name = "work-runtime-ktx", version
 
 [plugins]
 androidx-navigation-safeargs-kotlin = { id = "androidx.navigation.safeargs.kotlin", version.ref = "androidx-navigation" }
-com-android-application = { id = "com.android.application", version = "8.0.2" }
+com-android-application = { id = "com.android.application", version = "8.8.0" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

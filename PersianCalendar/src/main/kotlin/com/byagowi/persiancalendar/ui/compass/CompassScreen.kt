@@ -329,7 +329,7 @@ class CompassScreen : Fragment(R.layout.compass_screen) {
                 orientationSensorListener, orientationSensor, SensorManager.SENSOR_DELAY_FASTEST
             )
             if (BuildConfig.DEVELOPMENT)
-                Toast.makeText(context, "dev: orientation", Toast.LENGTH_LONG).show()
+             //   Toast.makeText(context, "dev: orientation", Toast.LENGTH_LONG).show()
             if (coordinates.value == null) showLongSnackbar(
                 R.string.set_location,
                 Snackbar.LENGTH_SHORT
@@ -344,7 +344,7 @@ class CompassScreen : Fragment(R.layout.compass_screen) {
                 SensorManager.SENSOR_DELAY_GAME
             )
             if (BuildConfig.DEVELOPMENT)
-                Toast.makeText(context, "dev: acc+magnet", Toast.LENGTH_LONG).show()
+                ///Toast.makeText(context, "dev: acc+magnet", Toast.LENGTH_LONG).show()
             if (coordinates.value == null)
                 showLongSnackbar(R.string.set_location, Snackbar.LENGTH_SHORT)
         } else {

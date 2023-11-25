@@ -1,27 +1,33 @@
 package com.byagowi.persiancalendar.ui
 
 import android.Manifest
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.graphics.RenderEffect
 import android.graphics.Shader
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.KeyEvent
+import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.annotation.IdRes
+import androidx.annotation.RequiresApi
 import androidx.annotation.VisibleForTesting
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import androidx.core.content.edit
 import androidx.core.view.GravityCompat
 import androidx.core.view.ViewCompat
@@ -37,11 +43,15 @@ import androidx.navigation.NavDestination
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.navOptions
 import androidx.viewpager2.widget.MarginPageTransformer
+import com.adivery.sdk.Adivery
+import com.adivery.sdk.AdiveryAdListener
+import com.adivery.sdk.AdiveryBannerAdView
 import com.byagowi.persiancalendar.CALENDAR_READ_PERMISSION_REQUEST_CODE
 import com.byagowi.persiancalendar.CHANGE_LANGUAGE_IS_PROMOTED_ONCE
 import com.byagowi.persiancalendar.DEFAULT_NOTIFY_DATE
 import com.byagowi.persiancalendar.DEFAULT_THEME_GRADIENT
 import com.byagowi.persiancalendar.LAST_CHOSEN_TAB_KEY
+import com.byagowi.persiancalendar.MainApplication
 import com.byagowi.persiancalendar.POST_NOTIFICATION_PERMISSION_REQUEST_CODE_ENABLE_ATHAN_NOTIFICATION
 import com.byagowi.persiancalendar.POST_NOTIFICATION_PERMISSION_REQUEST_CODE_ENABLE_CALENDAR_NOTIFICATION
 import com.byagowi.persiancalendar.PREF_APP_LANGUAGE
@@ -59,6 +69,9 @@ import com.byagowi.persiancalendar.PREF_SHOW_DEVICE_CALENDAR_EVENTS
 import com.byagowi.persiancalendar.PREF_THEME
 import com.byagowi.persiancalendar.PREF_THEME_GRADIENT
 import com.byagowi.persiancalendar.R
+
+import com.byagowi.persiancalendar.databinding.Dialog2Binding
+import com.byagowi.persiancalendar.databinding.Dialog3Binding
 import com.byagowi.persiancalendar.databinding.MainActivityBinding
 import com.byagowi.persiancalendar.databinding.NavigationHeaderBinding
 import com.byagowi.persiancalendar.entities.CalendarType
@@ -110,6 +123,10 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     private var settingHasChanged = false
     private lateinit var binding: MainActivityBinding
 
+    //
+    private lateinit var alertDialog2: AlertDialog
+    private lateinit var alertDialog3: AlertDialog
+    //
     private val onBackPressedCloseDrawerCallback = object : OnBackPressedCallback(false) {
         override fun handleOnBackPressed() = binding.root.closeDrawer(GravityCompat.START)
     }
@@ -119,6 +136,9 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         applyAppLanguage(this)
         super.onCreate(savedInstanceState)
         transparentSystemBars()
+       // Toast.makeText(this, "ff", Toast.LENGTH_SHORT).show()
+
+
 
         onBackPressedDispatcher.addCallback(this, onBackPressedCloseDrawerCallback)
         initGlobal(this)
@@ -206,6 +226,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
             windowInsets
         }
     }
+
 
     private fun setNavHostBackground() {
         if (!appPrefs.getBoolean(PREF_THEME_GRADIENT, DEFAULT_THEME_GRADIENT)
@@ -449,6 +470,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         })
     }
 
+
     private fun createDrawerListener() = object : DrawerLayout.SimpleDrawerListener() {
         val slidingDirection = if (resources.isRtl) -1f else +1f
 
@@ -500,4 +522,5 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
             header.seasonsPager.setCurrentItem(header.seasonsPager.currentItem, false)
         }
     }
+
 }

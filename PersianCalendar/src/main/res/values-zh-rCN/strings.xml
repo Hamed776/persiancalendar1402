@@ -369,4 +369,8 @@
     <string name="high_latitudes_one_seventh">七等分</string>
     <string name="high_latitudes_angle_based">基于高度角</string>
     <string name="true_north">真北</string>
+    <string name="Fivestarreview">五星级评价</string>
+    <string name="Writecomment">写评论</string>
+
+    <string name="Exit">离开</string>
 </resources>

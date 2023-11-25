@@ -40,8 +40,8 @@ android {
     defaultConfig {
         applicationId = "com.persiancalendar1402"
         minSdk = 19
-        targetSdk = 34
-        versionCode = 840
+        targetSdk = 35
+        versionCode = 851
         versionName = "8.4.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         if (!isMinApi21Build) vectorDrawables.useSupportLibrary = true
@@ -145,8 +145,11 @@ val minApi21Implementation by configurations
 dependencies {
     // Project owned libraries
 
-    implementation("com.adivery:sdk:4.6.5")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
+    implementation(libs.sdk)
+    implementation(libs.kotlin.stdlib)
+    implementation(libs.parse)
+
+
 
     implementation(libs.persiancalendar.calendar)
     implementation(libs.persiancalendar.praytimes)
