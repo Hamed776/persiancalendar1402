@@ -581,17 +581,4 @@ The app needs this only once, however, if you move to a new location, accessing 
     <string name="m32_16_37_0632l1_7599_0l0_22_0001l_1_7599_0">M32.16,37.0632l1.7599,0l0,22.0001l-1.7599,0z</string>
     <string name="m62_0797_37_0632l1_7601_0l0_22_0001l_1_7601_0">M62.0797,37.0632l1.7601,0l0,22.0001l-1.7601,0z</string>
     <string name="m20_5_3l_0_16_0_03l15_5_1_9_3_3_36_4_9c_0_21_0_07_0_36_0_25_0_36_0_48v20_5c0_0_28_0_22_0_5_0_5_0_5l0_16_0_03l9_18_9l6_2_1_5_64_1_9c0_21_0_07_0_36_0_25_0_36_0_48v3_5c0_0_28_0_22_0_5_0_5_0_5zm15_19l_6_2_11v5l6_2_11v19">M20.5,3l-0.16,0.03L15,5.1 9,3 3.36,4.9c-0.21,0.07 -0.36,0.25 -0.36,0.48V20.5c0,0.28 0.22,0.5 0.5,0.5l0.16,-0.03L9,18.9l6,2.1 5.64,-1.9c0.21,-0.07 0.36,-0.25 0.36,-0.48V3.5c0,-0.28 -0.22,-0.5 -0.5,-0.5zM15,19l-6,-2.11V5l6,2.11V19z</string>
-
-    <string name="Fivestarreview">Fivestarreview</string>
-    <string name="Writecomment">Write Comment</string>
-    <string name="app_name1">تقویم فارسی</string>
-    <string name="Exit">Exit</string>
-
-    <string name="back4app_server_url" translatable="false">https://parseapi.back4app.com/</string>
-    <string name="back4app_app_id" translatable="false">oOQNtcBbM8MTniG7VhMUh5GGJaDhdII3OvITf7TR</string>
-    <string name="back4app_client_key" translatable="false">KsSHyEjcDwGRab0gPyZkP2y0Vk1z8MQjMRwI27Wl</string>
-
 </resources>
-
-
-
