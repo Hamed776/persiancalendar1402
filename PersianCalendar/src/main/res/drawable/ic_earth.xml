@@ -1,0 +1,52 @@
+<!-- https://github.com/GNOME/epiphany/blob/a308ad5/data/icons/hicolor/scalable/apps/org.gnome.Epiphany.svg -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+    <path
+        android:fillColor="#40a1c8"
+        android:pathData="@string/m125_65c0_33_137_26_863_60_60_60s_60_26_863_60_60s26_863_60_60_60s60_26_863_60_60z" />
+    <path
+        android:fillColor="#49bbb0"
+        android:pathData="@string/m29_004_66c0_125_13_914_2_883_27_367_7_836_38_25c_3_941_2_016_7_281_4_441_9_863_7_16c_13_641_11_172_21_676_27_781_21_969_45_41z" />
+    <path
+        android:fillColor="#378bde"
+        android:pathData="@string/m65_98v27c_4_5_0_8_988_0_508_13_375_1_512c_5_801_4_059_10_895_10_691_14_781_19_238c7_902_4_039_17_867_6_25_28_156_6_25z" />
+    <path
+        android:fillColor="#266ec6"
+        android:pathData="@string/m100_996_66c_0_125_13_914_2_883_27_367_7_84_38_25c3_945_2_016_7_281_4_441_9_863_7_16c13_641_11_172_21_676_27_781_21_973_45_41z" />
+    <path
+        android:fillColor="#378bde"
+        android:pathData="@string/m65_66v59c4_5_0_8_988_0_508_13_375_1_512c13_473_9_434_22_391_32_098_22_621_57_488z" />
+    <path
+        android:fillColor="#266ec6"
+        android:pathData="@string/m65_98v27c4_5_0_8_988_0_508_13_375_1_512c5_801_4_059_10_895_10_691_14_781_19_238c_7_902_4_039_17_867_6_25_28_156_6_25z" />
+    <path
+        android:fillColor="#1e62b5"
+        android:pathData="@string/m93_16_104_25c_3_891_8_547_8_984_15_176_14_781_19_238c9_035_2_066_17_473_6_203_24_645_12_078c_2_582_2_719_5_922_5_145_9_863_7_16z" />
+    <path
+        android:fillColor="#53d795"
+        android:pathData="@string/m65_5c_33_137_0_60_26_863_60_60c0_0_332_0_004_0_668_0_008_1h59_992z" />
+    <path
+        android:fillColor="#72e99a"
+        android:pathData="@string/m51_625_6_508c_9_039_2_07_17_477_6_203_24_648_12_078c2_582_2_723_5_922_5_145_9_867_7_164c3_891_8_551_8_984_15_18_14_781_19_242z" />
+    <path
+        android:fillColor="#49bbb0"
+        android:pathData="@string/m65_5c_4_5_0_8_984_0_508_13_375_1_508c_13_664_9_57_22_625_32_734_22_625_58_492c0_0_332_0_0_668_0_004_1h35_996z" />
+    <path
+        android:fillColor="#53d795"
+        android:pathData="@string/m65_5c_4_5_0_8_984_0_508_13_375_1_508c_5_797_4_063_10_891_10_691_14_781_19_242c7_906_4_039_17_867_6_25_28_156_6_25z" />
+    <path
+        android:fillColor="#378bde"
+        android:pathData="@string/m65_5c33_137_0_60_26_863_60_60c0_0_332_0_004_0_668_0_008_1h_59_992z" />
+    <path
+        android:fillColor="#40a1c8"
+        android:pathData="@string/m78_375_6_508c9_039_2_07_17_477_6_203_24_648_12_078c_2_582_2_723_5_922_5_145_9_863_7_16c_3_895_8_547_8_988_15_176_14_785_19_238z" />
+    <path
+        android:fillColor="#40a1c8"
+        android:pathData="@string/m65_5c4_5_0_8_988_0_508_13_375_1_508c13_664_9_57_22_625_32_734_22_625_58_492c0_0_332_0_0_668_0_004_1h_35_996z" />
+    <path
+        android:fillColor="#49bbb0"
+        android:pathData="@string/m65_5c4_5_0_8_988_0_508_13_375_1_508c5_797_4_063_10_891_10_691_14_781_19_238c_7_906_4_043_17_867_6_254_28_156_6_254z" />
+</vector>

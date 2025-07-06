@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/shortcut_color"
+        android:pathData="@string/m12_2c6_48_2_2_6_48_2_12s4_48_10_10_10_10_4_48_10_10s17_52_2_12_2zm6_5_9l10_5_5_13_5_9l11_9v4l9_13l9_9l6_5_9zm17_5_15l14_18_5_10_5_15l13_15v_4h2v4h2_5" />
+</vector>

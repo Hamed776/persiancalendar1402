@@ -1,0 +1,154 @@
+<!-- Imported from https://commons.wikimedia.org/wiki/File:Emojione_1F54B.svg CC-by-SA 4.0 Emoji One -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="#3e4347"
+        android:pathData="@string/m14_5_62_l2_49_5_2_2_14_5_14_5z" />
+    <path
+        android:fillColor="#3e4347"
+        android:pathData="@string/m14_5_14_5h47_5v47_5h_47_5z" />
+    <path
+        android:fillColor="#3e4347"
+        android:pathData="@string/m62_14_5_l14_5_14_5_2_2_49_5_2z" />
+    <path
+        android:fillColor="#e8e8e8"
+        android:pathData="@string/m15_5_12h56l_7_5_7_5h8l15_5_12z" />
+    <path
+        android:fillColor="#b2c1c0"
+        android:pathData="@string/m10_5_7l5_5h36_7l_5_5z" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m14_5_29_5h47_5v5h_47_5z" />
+    <path
+        android:fillAlpha="0.33"
+        android:fillColor="#b2c1c0"
+        android:pathData="@string/m14_5_62_l2_49_5_2_2_14_5_14_5"
+        android:strokeAlpha="0.33" />
+    <path
+        android:fillColor="#fbbf67"
+        android:pathData="@string/m14_5_34_5_l2_22_2_17_14_5_29_5z" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m39_5_37h13_8v5h_13_8z" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m59_5_37h2_5v5h_2_5z" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m14_5_37h2_5v5h_2_5z" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m37_7_38_6c_0_6_0_6_0_3_1_1_0_3_1_1l_1_0_5_1_1_0_5c0_0_0_3_0_5_0_3_1_1_0_3_0_3_0_5_0_6_0_5_1_1_0_0_4_0_3_0_7_0_5_1_0_3_0_6_0_7_1_3_1_4_1_3_0_7_0_1_1_0_6_1_4_1_3_0_2_0_3_0_5_0_6_0_5_1_0_1_0_5_0_3_0_8_0_6_1_1" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m21_5_38_6c_0_6_0_6_0_3_1_1_0_3_1_1l_1_1_0_5_1_1_0_5c0_0_0_3_0_5_0_3_1_1_0_3_0_3_0_5_0_6_0_5_1_1_0_0_4_0_3_0_7_0_5_1_0_3_0_6_0_7_1_3_1_4_1_3_0_7_0_1_1_0_6_1_4_1_3_0_2_0_3_0_5_0_6_0_5_1_0_0_5_0_2_0_8_0_5_1_1" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m57_7_38_6c_0_6_0_6_0_3_1_1_0_3_1_1l_1_0_5_1_1_0_5c0_0_0_3_0_5_0_3_1_1_0_3_0_3_0_5_0_6_0_5_1_1_0_0_4_0_3_0_7_0_5_1_0_3_0_6_0_7_1_3_1_4_1_3_0_7_0_1_1_0_6_1_4_1_3_0_2_0_3_0_5_0_6_0_5_1_0_1_0_5_0_3_0_8_0_6_1_1" />
+    <path
+        android:fillColor="#fbbf67"
+        android:pathData="@string/m13_2_35_8v5l1_3_1_2v_5z" />
+    <path
+        android:fillColor="#e8e8e8"
+        android:pathData="@string/m33_2_44_5h28_8v10h_28_8z" />
+    <path
+        android:fillColor="#e8e8e8"
+        android:pathData="@string/m14_5_44_5h8_8v10h_8_8z" />
+    <path
+        android:fillColor="#fbbf67"
+        android:pathData="@string/m12_5_36_5c_0_2_0_8_0_1_1_2_0_1_1_2l_0_4_0_8_0_4_0_1c0_0_0_1_0_6_0_1_1_0_1_0_2_0_2_0_5_0_2_0_9_0_0_4_0_1_0_8_0_2_1_2_0_1_0_7_0_2_1_5_0_5_1_7_0_2_0_2_0_4_0_3_0_5_0_8_0_1_0_3_0_2_0_5_0_2_0_9_0_1_0_4_0_2_0_8_0_2_1_2" />
+    <path
+        android:fillColor="#fbbf67"
+        android:pathData="@string/m7_5_31_5c_0_2_0_8_0_1_1_2_0_1_1_2l_0_4_0_8_0_4_0_1c0_0_0_1_0_6_0_1_1_0_1_0_2_0_2_0_5_0_2_0_9_0_0_4_0_1_0_8_0_2_1_2_0_1_0_7_0_2_1_5_0_5_1_7_0_2_0_2_0_4_0_3_0_5_0_8_0_1_0_3_0_2_0_5_0_2_0_9_0_1_0_4_0_2_0_8_0_2_1_2" />
+    <path
+        android:fillColor="#fbbf67"
+        android:pathData="@string/m8_2_30_8v5l2_5_2_4v_5z" />
+    <path
+        android:fillColor="#fbbf67"
+        android:pathData="@string/m3_2_25_8v5l2_6_2_4v_5z" />
+    <path
+        android:fillColor="#e8e8e8"
+        android:pathData="@string/m2_42l12_5_12_5v_10l_12_5_12_5z" />
+    <path
+        android:fillAlpha="0.2"
+        android:fillColor="#3e4347"
+        android:pathData="@string/m33_2_44_5h28_8v10h_28_8"
+        android:strokeAlpha="0.2" />
+    <path
+        android:fillAlpha="0.2"
+        android:fillColor="#3e4347"
+        android:pathData="@string/m14_5_44_5h8_8v10h_8_8"
+        android:strokeAlpha="0.2" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m14_5_54_5h47_5v7_5h_47_5z" />
+    <path
+        android:fillAlpha="0.5"
+        android:fillColor="#3e4347"
+        android:pathData="@string/m14_5_54_5h47_5v7_5h_47_5"
+        android:strokeAlpha="0.5" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m14_5_62_l2_49_5_2_42_14_5_54_5z" />
+    <path
+        android:fillAlpha="0.25"
+        android:fillColor="#3e4347"
+        android:pathData="@string/m14_5_62_l2_49_5_2_42_14_5_54_5"
+        android:strokeAlpha="0.25" />
+    <path
+        android:fillColor="#ffce31"
+        android:pathData="@string/m23_2_42h10v17_5h_10z" />
+    <path
+        android:fillColor="#f2b200"
+        android:pathData="@string/m23_2_58_2h10v1_2h_10z" />
+    <path
+        android:fillColor="#f2b200"
+        android:pathData="@string/m32_37h1_2v22_5h_1_2z" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m23_2_37v17_5h4_3l0_7_5_0_8_5h4_2v_17_5z" />
+    <path
+        android:fillAlpha="0.33"
+        android:fillColor="#fff"
+        android:pathData="@string/m30_8_47h_5_1l_1_2_1_2_1_2_1_3h5_1l1_2_1_3z"
+        android:strokeAlpha="0.33" />
+    <path
+        android:fillAlpha="0.33"
+        android:fillColor="#fff"
+        android:pathData="@string/m30_8_50_8m_1_3_0a1_3_1_3_0_1_1_2_6_0a1_3_1_3_0_1_1_2_6_0"
+        android:strokeAlpha="0.33" />
+    <path
+        android:fillAlpha="0.33"
+        android:fillColor="#fff"
+        android:pathData="@string/m25_8_50_8m_1_2_0a1_2_1_2_0_1_1_2_4_0a1_2_1_2_0_1_1_2_4_0"
+        android:strokeAlpha="0.33" />
+    <path
+        android:fillAlpha="0.33"
+        android:fillColor="#fff"
+        android:pathData="@string/m25_8_41c_0_2_0_2_0_1_0_4_0_1_0_4l_0_4_0_2_0_4_0_2c0_0_0_1_0_2_0_1_0_4_0_1_0_1_0_2_0_3_0_2_0_4_0_0_2_0_1_0_3_0_2_0_4_0_1_0_3_0_3_0_5_0_6_0_5_0_3_0_0_4_0_3_0_6_0_5_0_1_0_1_0_2_0_3_0_2_0_4_0_2_0_1_0_3_0_3_0_4_0_4"
+        android:strokeAlpha="0.33" />
+    <path
+        android:fillAlpha="0.33"
+        android:fillColor="#fff"
+        android:pathData="@string/m27_8_41c_0_2_0_2_0_1_0_4_0_1_0_4l_0_4_0_2_0_4_0_2c0_0_0_1_0_2_0_1_0_4_0_1_0_1_0_2_0_3_0_2_0_4_0_0_2_0_1_0_3_0_2_0_4_0_1_0_3_0_3_0_5_0_6_0_5_0_3_0_0_4_0_3_0_6_0_5_0_1_0_1_0_2_0_3_0_2_0_4_0_2_0_1_0_3_0_3_0_4_0_4"
+        android:strokeAlpha="0.33" />
+    <path
+        android:fillAlpha="0.33"
+        android:fillColor="#fff"
+        android:pathData="@string/m29_8_41c_0_2_0_2_0_1_0_4_0_1_0_4l_0_4_0_2_0_4_0_2c0_0_0_1_0_2_0_1_0_4_0_1_0_1_0_2_0_3_0_2_0_4_0_0_2_0_1_0_3_0_2_0_4_0_1_0_3_0_3_0_5_0_6_0_5_0_3_0_0_4_0_3_0_6_0_5_0_1_0_1_0_2_0_3_0_2_0_4_0_2_0_1_0_3_0_3_0_4_0_4"
+        android:strokeAlpha="0.33" />
+    <path
+        android:fillAlpha="0.33"
+        android:fillColor="#fff"
+        android:pathData="@string/m31_8_41c_0_2_0_2_0_1_0_4_0_1_0_4l_0_4_0_2_0_4_0_2c0_0_0_1_0_2_0_1_0_4_0_1_0_1_0_2_0_3_0_2_0_4_0_0_2_0_1_0_3_0_2_0_4_0_1_0_3_0_3_0_5_0_6_0_5_0_3_0_0_4_0_3_0_6_0_5_0_1_0_1_0_2_0_3_0_2_0_4_0_2_0_1_0_3_0_3_0_4_0_4"
+        android:strokeAlpha="0.33" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m14_5_59_3l_1_7_1_7v_2_1l1_7_1_7v_0_4l_3_6_3_6v_2_3l_0_3_0_3v2_3l_2_2_2_2v_2_3l_0_3_0_3v2_3l_3_4_3_4v_2_3l_0_3_0_3v2_3l_2_4_2_4v0_4l0_8_0_8v2_1l_0_8_0_8v0_4l2_3_2_3v2_3l0_3_0_3v_2_3l2_2_2_2v2_3l0_3_0_3v_2_3l4_1_4_1v2_3l0_3_0_3v_2_3l3_3v_0_4m_8_9_8_9l_2_5_2_5v_2_1l2_5_2_5v2_1m3_7_3_7l_3_4_3_4v_2_1l3_4_3_4v2_1m3_2_3_1l_2_8_2_8v_2_1l2_8_2_8v2_1" />
+    <path
+        android:fillColor="#dbb471"
+        android:pathData="@string/m62_57_2v_0_3h_5_5v_2_3h_0_3v2_3h_4_8v_2_3h_0_3v2_3h_4_6v_2_3h_0_3v2_3h_4_1v_2_3h_0_3v2_3h_5_3v_2_3h_0_3v2_3h_3v0_3h4_8v2_2h_17_7v_2_2h3v_0_3h_4_8v_2_3h_0_3v2_3h_3_6v0_3h5_4v2_2h_5_5v0_3h1_1v2_3h0_3v_2_3h5_9v2_3h0_3v_2_3h4_9v2_3h0_3v_2_3h3_7v2_3h0_3v_2_3h2_9v2_3h0_3v_2_3h5_5v2_3h0_3v_2_3h5v2_3h0_3v_2_3h5_4v2_3h0_3v_2_3h4_8v2_3h0_3v_2_3h5_6v_0_3h_3_6v_2_2h3_6m_18_3_2_1h_5_3v_2_2h5_3v2_2m3_8_0h_3_5v_2_2h3_4l0_1_2_2m5_6_0h_5_3v_2_2h5_3v2_2m5_0h_4_7v_2_2h4_7v2_2" />
+</vector>

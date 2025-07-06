@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:tint="?attr/colorControlNormal"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="@string/m6_7c_0_59_0_1_07_0_48_1_07_1_07_0_0_59_0_48_1_07_1_07_1_07_0_59_0_1_07_0_48_1_07_1_07c7_07_6_52_6_59_7_6_7m10_6_1c10_3_61_8_1_2_6_2_3_9_2_2_3_61_2_6_1c0_1_66_1_33_3_63_4_5_9_2_67_2_27_4_4_24_4_5_9" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="@string/m18_13c_0_59_0_1_07_0_48_1_07_1_07_0_0_59_0_48_1_07_1_07_1_07_0_59_0_1_07_0_48_1_07_1_07c19_07_12_52_18_59_13_18_13m22_12_1c22_9_61_20_1_8_18_8_15_9_8_14_9_61_14_12_1c0_1_66_1_33_3_63_4_5_9_2_67_2_27_4_4_24_4_5_9" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="@string/m7_16l7_14l5_14l5_16c0_3_314_2_686_6_6_6l7_0l0_2l11_20c8_791_20_7_18_209_7_16" />
+</vector>

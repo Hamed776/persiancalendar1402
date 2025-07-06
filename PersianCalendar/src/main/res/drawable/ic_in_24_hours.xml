@@ -1,0 +1,15 @@
+<!--
+Made from:
+* https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Alocal_convenience_store%3A
+* https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Areplay_30%3A
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:tint="?attr/colorControlNormal"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="@string/m12_1_l5_5_5_5v_4c_3_3_0_6_2_7_6_6s2_7_6_6_6_6_2_7_6_6h2c0_4_4_3_6_8_8_8s_8_3_6_8_8_3_6_8_8_8zm8_6_12v0_87h1_7v0_87h_1_7v2_6h2_6v_0_87h_1_7v_0_87h1_7v_2_6zm12_6_12v2_6h1_7v1_7h0_87v_4_4h_0_87v1_7h_0_87v_1_7z" />
+</vector>

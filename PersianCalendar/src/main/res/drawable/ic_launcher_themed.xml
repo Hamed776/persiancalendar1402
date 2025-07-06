@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="600"
+    android:viewportHeight="600">
+    <group
+        android:pivotX="300"
+        android:pivotY="300"
+        android:scaleX=".6"
+        android:scaleY=".6">
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="@string/m147_238_8v35_9c0_8_9_6_4_16_2_14_4_16_2h_9c_7_9_0_14_4_7_3_14_4_16_2v_36h_29_6v126_3h29_4v_44_8h30_6c20_4_0_1_36_8_16_5_36_9_36_9v_44_6l_29_5_0_1l0_0z" />
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="@string/m282_272_3v_33_7h_52_5c_16_4_0_29_7_13_1_30_2_29_4v30_6c0_1_20_4_16_5_36_8_36_9_36_9h16_2v29_5h29_4v_44_8c0_9_5_0_3_45_6_0_3_45_6v_2_3l_0_1_0zm_35_33_9h_2_3c_8_9_0_16_2_6_4_16_2_14_4v_9c0_7_9_7_3_14_4_16_2_14_4h7_5v37_7l_5_2_0_1l0_0z" />
+        <path
+            android:name="first_band"
+            android:fillColor="@android:color/white"
+            android:pathData="@string/m325_202v61h234v_61z" />
+        <group android:name="second_band">
+            <path
+                android:fillColor="@android:color/white"
+                android:pathData="@string/m325_296h234v33h_234z" />
+        </group>
+        <group android:name="third_band">
+            <path
+                android:fillColor="@android:color/white"
+                android:pathData="@string/m325_360h234v33h_234z" />
+        </group>
+        <group android:name="fourth_band">
+            <path
+                android:fillColor="@android:color/white"
+                android:pathData="@string/m325_423h169v31h_169z" />
+        </group>
+    </group>
+</vector>
