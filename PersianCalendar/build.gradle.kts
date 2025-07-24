@@ -148,6 +148,8 @@ dependencies {
     implementation(libs.sdk)
     implementation(libs.kotlin.stdlib)
     implementation(libs.parse)
+    implementation(libs.multidex)
+        // implementation(mapOf("name" to "multidex-2.0.1", "ext" to "aar"))
 
 
 
@@ -230,6 +232,7 @@ dependencies {
     androidTestImplementation(libs.androidx.test.ext.junit)
 
     androidTestImplementation(libs.bundles.espresso)
+
 }
 
 tasks.named("preBuild").configure { dependsOn(getTasksByName("codegenerators", false)) }

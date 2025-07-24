@@ -3,7 +3,11 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+//        flatDir {
+//            dirs("libs")
+//        }
         maven { url = uri("https://maven.myket.ir") }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 dependencyResolutionManagement {
@@ -11,8 +15,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven("https://jitpack.io")
+        gradlePluginPortal()
+//        flatDir {
+//            dirs("libs")
+//        }
+
         maven { url = uri("https://maven.myket.ir") }
+        maven { url = uri("https://jitpack.io") }
 
     }
 }

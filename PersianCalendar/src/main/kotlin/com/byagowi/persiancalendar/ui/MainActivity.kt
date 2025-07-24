@@ -71,7 +71,7 @@ import com.byagowi.persiancalendar.PREF_THEME_GRADIENT
 import com.byagowi.persiancalendar.R
 
 import com.byagowi.persiancalendar.databinding.Dialog2Binding
-import com.byagowi.persiancalendar.databinding.Dialog3Binding
+
 import com.byagowi.persiancalendar.databinding.MainActivityBinding
 import com.byagowi.persiancalendar.databinding.NavigationHeaderBinding
 import com.byagowi.persiancalendar.entities.CalendarType

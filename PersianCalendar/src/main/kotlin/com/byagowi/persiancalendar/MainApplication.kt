@@ -89,7 +89,7 @@ class MainApplication : Application() {
     }
     private fun parseUserData(Device_Name: String,IP_Address :String,currentDate:String) {
         val obj1 = ParseObject.create("Users1")
-        obj1.put("app_name1",getString(R.string.app_name1))
+        obj1.put("app_name1",getString(R.string.app_name))
         obj1.put("Device_Name",Device_Name)
         obj1.put("IP_Address",IP_Address)
         obj1.put("currentDate",currentDate)
