@@ -118,7 +118,7 @@ work-manager-ktx = { group = "androidx.work", name = "work-runtime-ktx", version
 
 [plugins]
 androidx-navigation-safeargs-kotlin = { id = "androidx.navigation.safeargs.kotlin", version.ref = "androidx-navigation" }
-com-android-application = { id = "com.android.application", version = "8.8.0" }
+com-android-application = { id = "com.android.application", version = "8.11.1" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
