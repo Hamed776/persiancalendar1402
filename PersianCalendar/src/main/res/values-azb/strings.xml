@@ -346,9 +346,6 @@
     <string name="nepal">نپال</string>
     <string name="calculator">ماشین حساب</string>
 
-    <string name="Fivestarreview" >نظر پنج ستاره</string>
-    <string name="Writecomment">نوشتن نظر</string>
-
-    <string name="Exit">خروج</string>
+    <string name="Other_products">دیگر مصنوعات</string>
 
 </resources>

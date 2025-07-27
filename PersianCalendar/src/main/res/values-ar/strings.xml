@@ -447,7 +447,5 @@
         <item quantity="many">%1$s يوما العمل</item>
         <item quantity="other">%1$s يوم العمل</item>
     </plurals>
-    <string name="Fivestarreview">مراجعة فايف ستار</string>
-    <string name="Writecomment">اكتب تعليقا</string>
-    <string name="Exit">رحيل</string>
+    <string name="Other_products">منتجات أخرى</string>
 </resources>

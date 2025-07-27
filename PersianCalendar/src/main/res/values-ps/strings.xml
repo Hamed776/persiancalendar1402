@@ -329,8 +329,5 @@
     <string name="country_emoji">🇦🇫🇵🇰</string>
     <string name="nepal">نپال</string>
     <string name="calculator">شمېرنی</string>
-    <string name="Fivestarreview">نظر پنج ستاره</string>
-    <string name="Writecomment">نوشتن نظر</string>
-
-    <string name="Exit">خروج</string>
+    <string name="Other_products">سایر محصولات</string>
 </resources>

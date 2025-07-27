@@ -337,8 +337,6 @@
     <string name="country_emoji">🇹🇯</string>
     <string name="nepal">Непал</string>
     <string name="calculator">Калкулятор</string>
-    <string name="Fivestarreview">Баррасии панҷ ситора</string>
-    <string name="Writecomment">Шарҳ нависед</string>
+    <string name="Other_products">Маҳсулоти дигар</string>
 
-    <string name="Exit">рафтан</string>
 </resources>

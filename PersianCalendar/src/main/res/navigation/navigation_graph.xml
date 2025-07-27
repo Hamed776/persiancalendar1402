@@ -176,5 +176,9 @@
         android:id="@+id/sky_renderer"
         android:name="com.byagowi.persiancalendar.ui.map.SkyRendererScreen"
         android:label="Sky Renderer Screen" />
+    <fragment
+        android:id="@+id/Other_products"
+        android:name="com.byagowi.persiancalendar.ui.Other_products.OtherproductsFragment"
+        android:label="@string/Other_products" />
 
 </navigation>

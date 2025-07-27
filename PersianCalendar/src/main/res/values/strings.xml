@@ -586,4 +586,5 @@ The app needs this only once, however, if you move to a new location, accessing 
     <string name="back4app_app_id" translatable="false">oOQNtcBbM8MTniG7VhMUh5GGJaDhdII3OvITf7TR</string>
     <string name="back4app_client_key" translatable="false">KsSHyEjcDwGRab0gPyZkP2y0Vk1z8MQjMRwI27Wl</string>
 
+    <string name="Other_products">Other_products</string>
 </resources>

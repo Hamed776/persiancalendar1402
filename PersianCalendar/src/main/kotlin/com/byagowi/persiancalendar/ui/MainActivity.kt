@@ -163,11 +163,19 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
             Triple(R.id.astronomy, R.drawable.ic_astrology_horoscope, R.string.astronomy),
             Triple(R.id.settings, R.drawable.ic_settings, R.string.settings),
             Triple(R.id.about, R.drawable.ic_info, R.string.about),
-            Triple(R.id.exit, R.drawable.ic_cancel, R.string.exit)
+            Triple(R.id.Other_products, R.drawable.outline_apps_24, R.string.Other_products),
+            Triple(R.id.exit, R.drawable.ic_cancel, R.string.exit),
+
+
+
+
+
         ).forEach { (id, icon, title) ->
             binding.navigation.menu.add(Menu.NONE, id, Menu.NONE, title).setIcon(icon)
         }
         binding.navigation.setNavigationItemSelectedListener(this)
+
+
 
         navHostFragment?.navController?.addOnDestinationChangedListener(this)
         when (intent?.action) {

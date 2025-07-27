@@ -410,8 +410,6 @@
         <item quantity="many">%1$s días laborables</item>
         <item quantity="other">%1$s días laborables</item>
     </plurals>
-    <string name="Writecomment">Escribe un comentario</string>
-    <string name="Fivestarreview">Calificación de cinco estrellas</string>
-    <string name="Exit">Finalizar</string>
+    <string name="Other_products">Otros productos</string>
 
 </resources>
