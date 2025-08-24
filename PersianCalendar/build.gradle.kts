@@ -24,8 +24,7 @@ android {
     sourceSets {
         getByName("main").kotlin.srcDir(generatedAppSrcDir)
     }
-
-    compileSdk = 34
+    compileSdk = 35
 
     buildFeatures {
         viewBinding = true
@@ -144,6 +143,7 @@ val minApi21Implementation by configurations
 
 dependencies {
     // Project owned libraries
+    implementation(platform(libs.androidx.compose.bom))
 
     implementation(libs.sdk)
     implementation(libs.kotlin.stdlib)

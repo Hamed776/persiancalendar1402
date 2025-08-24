@@ -13,8 +13,9 @@ browser = "1.6.0"
 cardview = "1.0.0"
 compose = "1.5.4"
 compose-accompanist = "0.32.0"
+compose-bom = "2025.09.00"
 compose-compiler = "1.5.4" # https://developer.android.com/jetpack/androidx/releases/compose-kotlin
-compose-material3 = "1.1.2"
+compose-material3 = "1.4.0"
 coroutines = "1.7.3"
 dynamicanimation = "1.0.0"
 espresso = "3.5.1"
@@ -52,6 +53,7 @@ work-manager = "2.8.1"
 
 [libraries]
 activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "androidx-activity" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
@@ -119,7 +121,7 @@ work-manager-ktx = { group = "androidx.work", name = "work-runtime-ktx", version
 
 [plugins]
 androidx-navigation-safeargs-kotlin = { id = "androidx.navigation.safeargs.kotlin", version.ref = "androidx-navigation" }
-com-android-application = { id = "com.android.application", version =  "8.8.0" }
+com-android-application = { id = "com.android.application", version = "8.12.3" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
